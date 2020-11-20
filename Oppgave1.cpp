@@ -33,4 +33,3 @@ void InitializeLattice(int NSpins, mat &SpinMatrix,  double& Energy, double& Mag
 }// end function initialise
 
 
- //heihei
