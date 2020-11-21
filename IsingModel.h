@@ -17,9 +17,12 @@ using namespace arma;
 class IsingModel{
     mat spinMatrix;
     int nSpins, mcCycles;
+    vec sum;
     vec expectationValues;
     double initialTemp, finalTemp, tempStep, energy, magneticMoment;
     ofstream ofile; // output file
+    int count_attempt;
+    int count_accepted;
 
 public:
     IsingModel(int nSpins, int mcCycles, double initialTemp, double finalTemp, double tempStep);
@@ -29,9 +32,9 @@ public:
 private:
     void metropolisSampling(double temperature);
     void initializeLattice();
-    void writeResultsToFile(double temperature);
+    void writeResultsToFile(double temperature, int count_attempt, int count_accepted,int cycles, double energy);
+    void WriteToFileCycle();
     int periodicBoundary(int i, int limit, int add) { return (i+limit+add) % (limit);}
 };
-
 
 #endif // ISINGMODEL_H
