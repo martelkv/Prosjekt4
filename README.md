@@ -1,14 +1,12 @@
-
-
 # Prosjekt4
-Authors: Jelena Jankovic and Marte Lunde Kvam  
-Usernames: jelenaj98 and martelkv.  
+*Authors: Jelena Jankovic and Marte Lunde Kvam*  
+*Usernames: jelenaj98 and martelkv*.  
 
-NB: Read section *Other*.  
+NB: Read section **Other**.  
 
 ### What the directory contains:
-- *main.cpp* - The file which everything is run from.  
-- *Makefile* - To easily compile and run the code. Run 
+- **main.cpp** - The file which everything is run from.  
+- **Makefile** - To easily compile and run the code. Run ```make``` in the terminal for this.    
 - **IsingModel.cpp** - The main source code file used in **main_ising_model.cpp**.  
 - **IsingModel.h** - The header file corresponding to **IsingModel.cpp**.  
 - **MPIising** - The file used in **main.cpp**.  
@@ -25,15 +23,15 @@ NB: Read section *Other*.
 ### Dependencies:
 - *Armadillo* is used for its data structures.  
 The installation process below is from: uio.no/studier/emner/matnat/fys/FYS4411/v13/guides/installing-armadillo/ and is for Linux-users.   
-    - ```sudo apt-get install liblapack-dev
-    - 
-    - ```sudo apt-get install libboost-dev
+    - ```sudo apt-get install liblapack-dev```  
+    - ```sudo apt-get install libblas-dev```  
+    - ```sudo apt-get install libboost-dev```  
     Finally, run ```sudo apt-get install libarmadillo-dev```.  
- 
+
 On MacOS, this is:  
     - ```brew install armadillo```.  
 
 
 ### Other:
-- Task D has been solved by using *main_ising_model.cpp* and *plott_ising_model.py*.      
-- The rest of the tasks have been solved using *main.cpp* and *plottMPIising.cpp*.
+- Task D has been solved by using **main_ising_model.cpp** and **plott_ising_model.py**.      
+- The rest of the tasks have been solved using **main.cpp** and **plottMPIising.cpp**.  
