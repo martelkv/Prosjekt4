@@ -12,7 +12,7 @@
 
 int main(int argc, char** argv){
 
-    MPIising mpiising(80,1000000);
+    MPIising mpiising(40,1000000);
     mpiising.run(argc, argv);
     
     return 0;
