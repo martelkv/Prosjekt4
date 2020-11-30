@@ -1,4 +1,4 @@
-# Prosjekt4
+
 
 # Prosjekt4
 Authors: Jelena Jankovic and Marte Lunde Kvam  
