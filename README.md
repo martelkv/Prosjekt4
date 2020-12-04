@@ -16,8 +16,8 @@ NB: Read section **Other**.
 
 
 ### How to run:
-- To compile the MPI-code, run the command: ```mpic++ -O3 -o a  *.cpp```.   
-- To run the code, run ```mpirun --hostfile my_hostfile -n 8 ./a <textfile name>.txt``` .     
+- To compile the MPI-code, run the command: ```mpic++ -O3 -o a *.cpp```.   
+- To run the code, run ```mpirun -hostfile my_hostfile -n 4 ./a 10 1000000 2.1 2.4 0.02 <textfilename>.txt     ```
 
 
 ### Dependencies:
