@@ -14,6 +14,10 @@ NB: Read section **Other**.
 - **plottMPIising.py** - This plot is used for plotting with **main**
 - **Lattice\*** - Text files used for plotting.   
 
+### Difference between MPIising and IsingModel
+- MPIising programms can be run with different amount of nods. You can run it with only 1, and that would be the same as when code wasn't parallelized
+- Not parallelized programs are IsingModel.cpp and IsingModel.h
+
 
 ### How to run:
 - To compile the MPI-code, run the command: ```mpic++ -O3 -o a *.cpp```.   
